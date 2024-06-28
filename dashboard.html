@@ -1,0 +1,26 @@
+<!-- dashboard.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Digma Stud</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ganti dengan file CSS sesuai kebutuhan -->
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome to Digma Stud Dashboard</h2>
+        <p>Here you can access premium content for $3.</p>
+        
+        <!-- Form untuk pembelian akses berbayar -->
+        <form action="purchase.php" method="post">
+            <input type="hidden" name="amount" value="3">
+            <input type="hidden" name="item_name" value="Premium Access">
+            <button type="submit">Purchase Premium Access ($3)</button>
+        </form>
+
+        <p>Displaying premium content...</p>
+        <!-- Konten berbayar dapat ditampilkan di sini -->
+    </div>
+</body>
+</html>
